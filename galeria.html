@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="description" content="Diseño y nuevos medios, segunda versión remota" />
+        <link href="style.css" rel="stylesheet" />
+        <title>&#128397; DNO037 | Evalución Nº1</title>
+    </head>
+    <body>
+        <header>
+            <div>
+                <h1>&#128397; <span>DibujApp - Galeria</span></h1>
+            </div>
+            <div></div>
+            <div></div>
+        </header>
+        <main>
+            <div class = "fila">
+            <div class = "columna">
+            <figure>
+                <img src="mi_atacazo_artistico_1.jpg" class="centrado">
+                <figcaption>Alejandra, 32 años, su flor favorita</figcaption>    
+             </figure>
+             </div>
+             <div class = "columna">
+             <figure>
+                <img src="mi_atacazo_artistico_2.png" class="centrado">
+                <figcaption>Olguita, 40 años, ella bailando</figcaption>
+             </figure>
+              </div>
+             <div class = "columna">
+             <figure>
+                <img src="mi_atacazo_artistico_3.jpeg" class="centrado">
+                <figcaption>Claudia, 35 años, exploración</figcaption>
+             </figure>
+              </div>
+         </div>
+
+
+
+        </main>
+       <footer>
+            <div id="vinculos"></div>
+        </footer>
+
+
+
+        <script src="https://cdn.jsdelivr.net/npm/p5@1.2.0/lib/p5.min.js"></script>
+        <script>
+            var main = document.querySelector("main");
+            var footer = document.querySelector("footer");
+            var menuColor = document.getElementsByTagName("div")[1];
+            var colorido, grosor, descarga;
+
+            function setup() {
+                createCanvas(windowWidth, windowHeight).parent(main);
+                background(235);
+                createA("index.html", "¡dibuja!").parent("vinculos");
+                createA("galeria.html", "galeria").parent("vinculos");
+               
+            
+            }
+        </script>
+    </body>
+</html>
