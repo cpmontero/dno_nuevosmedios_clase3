@@ -130,7 +130,8 @@ footer {
 }
 footer div#vinculos{
     margin-left: 3vw;
-    margin-bottom: 3vw;
+    margin-bottom: 2vw;
+
 }
 
 
@@ -161,10 +162,9 @@ footer div#controles input[type=range]{
     padding: 5px;
 }
 
-img {
-   
-}
-.centrado { float: left; width: 350px; margin: 100px 10px 10px 10px; }
+.centrado { float: both; 
+    width: 350px; 
+    margin: 100px 10px 10px 10px; }
 
 
 
